@@ -2,13 +2,13 @@
 
 ## Project Overview
 
-This project explores a dataset collected from a survey on Amazon Mechanical Turk to understand the factors that influence whether a driver accepts a coupon delivered to their mobile phone. The dataset includes information about the driver, the driving scenario, and the coupon offered.
+This project examines a dataset collected from a survey on Amazon Mechanical Turk to investigate the factors that influence whether a driver accepts a coupon delivered to their mobile device. The dataset includes information about the driver, the driving scenario, and the coupon offered.
 
-The goal of this analysis is to identify the characteristics of drivers who are more likely to accept different types of coupons, helping businesses to better target their promotions.
+The goal of this analysis is to identify the characteristics of drivers who are more likely to accept various types of coupons, enabling businesses to target their promotions more effectively.
 
 ## Data and Methodology
 
-The analysis uses the `coupons.csv` dataset, which contains information on various attributes like driver demographics (age, gender, income, etc.), contextual factors (time, weather, destination, passenger), and coupon details (type, expiration).
+The analysis utilizes the `coupons.csv` dataset, which contains information on various attributes, including driver demographics (age, gender, income, etc.), contextual factors (time, weather, destination, and passenger), and coupon details (type and expiration).
 
 The approach involved:
 1.  **Data Loading and Inspection:** Loading the data and checking for missing values.
@@ -24,7 +24,7 @@ Approximately **56.84%** of the total coupon offers in the dataset were accepted
 
 **Visualization:**
 
-![Overall Coupon Distribution and Acceptance](images/overall_coupon_distribution.png)
+![Overall Coupon Distribution and Acceptance](images/coupon_acceptance_rate_by_type.png)  
 *Figure: Distribution of coupon types and their acceptance rates.*
 
 ### Bar Coupon Acceptance
@@ -38,7 +38,7 @@ This suggests that bar coupons are most effective when targeted at individuals w
 
 **Visualization:**
 
-![Bar Coupon Acceptance Rate by Driver Segment](images/bar_coupon_acceptance_segments.png)
+![Bar Coupon Acceptance Rate by Driver Segment](images/bar_coupon_acceptance_segments.png)  
 *Figure: Acceptance rates for bar coupons across different driver segments.*
 
 ### Carry Out & Take Away Coupon Acceptance
@@ -50,14 +50,14 @@ Key factors influencing the acceptance of these coupons include:
 *   **Time of Day and Destination:** Acceptance rates are highest in the **afternoon (2 PM) and evening (6 PM)**, especially for drivers with **no urgent destination** or who are heading **Home**. Acceptance is lowest during the morning commute (7 AM, heading to Work).
 *   **Education and Occupation:** Certain combinations of education levels (e.g., Associates degree, some college) and occupations (e.g., Protective Service, Construction, Healthcare Support, Business & Financial, Office & Administrative Support) show notably higher acceptance rates for takeout coupons.
 
-This indicates that takeout coupons are more likely to be accepted when drivers are not on a strict schedule (like a morning commute) and by individuals in certain professional and educational backgrounds who may find these offers convenient and appealing.
+This suggests that takeout coupons are more likely to be accepted when drivers are not on a strict schedule (such as a morning commute) and by individuals in certain professional and educational backgrounds who may find these offers convenient and appealing.
 
 **Visualizations:**
 
-![Takeout Coupon Acceptance by Time and Destination](images/takeout_time_destination_acceptance.png)
+![Takeout Coupon Acceptance by Time and Destination](images/takeout_time_destination_acceptance.png)  
 *Figure: Acceptance rate of takeout coupons by time of day and destination.*
 
-![Takeout Coupon Acceptance by Education and Occupation](images/takeout_education_occupation_acceptance.png)
+![Takeout Coupon Acceptance by Education and Occupation](images/takeout_education_occupation_acceptance.png)  
 *Figure: Acceptance rates for takeout coupons by education level and occupation.*
 
 ## Actionable Insights and Recommendations
@@ -65,16 +65,16 @@ This indicates that takeout coupons are more likely to be accepted when drivers 
 Based on this analysis, businesses can enhance their coupon targeting strategies:
 
 *   **For Bar Coupons:** Focus advertising efforts on drivers who exhibit behaviors indicative of frequent bar visits and whose current driving situation and passenger type align with social or leisure activities (e.g., not with kids). Targeting individuals over 25 who visit bars regularly is a strong approach.
-*   **For Carry Out & Take Away Coupons:** Deliver coupons during midday and evening hours, avoiding the typical morning work commute time. Prioritize drivers whose destination is Home or indicates no urgent place. Consider targeting individuals in occupations and with education levels that showed higher acceptance rates in the analysis.
+*   **For Carry Out & Take Away Coupons:** Deliver coupons during midday and evening hours, avoiding the typical morning work commute time. Prioritize drivers whose destination is 'Home' or indicates no urgent location. Consider targeting individuals in occupations and with education levels that showed higher acceptance rates in the analysis.
 
-By using these insights to target specific customer segments at the right time and context, businesses can significantly increase the effectiveness of their coupon campaigns.
+By utilizing these insights to target specific customer segments at the right time and in the proper context, businesses can significantly enhance the effectiveness of their coupon campaigns.
 
 ## Repository Contents
 
 *   `coupons.csv`: The dataset used for the analysis.
-*   `prompt.ipynb`: The Jupyter notebook containing all the code, analysis steps, visualizations, and detailed observations.
-*   `README.md`: This file, providing a non-technical summary of the project and findings.
-*   `images/`: A directory containing image files of the visualizations (e.g., `overall_coupon_distribution.png`, `bar_coupon_acceptance_segments.png`, `takeout_time_destination_acceptance.png`, `takeout_education_occupation_acceptance.png`). *You will need to create this directory and save your plots as image files.*
+*   `Practical Application 1 Jupyter Notebook.ipynb`: The Jupyter notebook containing all the code, analysis steps, visualizations, and detailed observations.
+*   `README.md`: This file provides a non-technical summary of the project and findings.
+*   `images/`: A directory containing image files of the visualizations (e.g., `overall_coupon_distribution.png`, `bar_coupon_acceptance_segments.png`, `takeout_time_destination_acceptance.png`, `takeout_education_occupation_acceptance.png`).
 
 ## Future Work
 
