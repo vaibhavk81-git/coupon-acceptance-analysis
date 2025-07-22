@@ -72,9 +72,9 @@ By utilizing these insights to target specific customer segments at the right ti
 ## Repository Contents
 
 *   `coupons.csv`: The dataset used for the analysis.
-*   `Practical Application 1 Jupyter Notebook.ipynb`: The Jupyter notebook containing all the code, analysis steps, visualizations, and detailed observations.
+*   [`prompt.ipynb`](prompt.ipynb): The Jupyter notebook containing all the code, analysis steps, visualizations, and detailed observations.
 *   `README.md`: This file provides a non-technical summary of the project and findings.
-*   `images/`: A directory containing image files of the visualizations (e.g., `overall_coupon_distribution.png`, `bar_coupon_acceptance_segments.png`, `takeout_time_destination_acceptance.png`, `takeout_education_occupation_acceptance.png`).
+*   `images/`: A directory containing image files of the visualizations (e.g., `coupon_offer_distribution.png`, `bar_coupon_acceptance_segments.png`, `takeout_time_destination_acceptance.png`, `takeout_education_occupation_acceptance.png`).
 
 ## Future Work
 
